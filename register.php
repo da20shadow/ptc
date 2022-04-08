@@ -1,7 +1,7 @@
 <?php
 include_once "db/config.php";
 
-include "include/signup.inc.php";
+include "includes/signup.inc.php";
 ?>
 
 <?php include "header.php";?>

@@ -1,6 +1,6 @@
 <?php
 include 'db/config.php';
-include 'include/ptc_ads.inc.php';
+include 'includes/ptc_ads.inc.php';
 include "header.php";
 ?>
 <div class="ptc-ads">

@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <title>PTC Site</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
           integrity="sha384-DmABxgPhJN5jlTwituIyzIUk6oqyzf3+XuP7q3VfcWA2unxgim7OSSZKKf0KSsnh"
           crossorigin="anonymous">
@@ -14,18 +14,18 @@
 </head>
 <body>
 <div class="header">
-    <div id="logo"><a href="index.php">LOGO</a></div>
+    <div id="logo"><a href="../index.php">LOGO</a></div>
     <nav>
-        <a href="index.php">Home</a>
+        <a href="../index.php">Home</a>
         <?php if(isset($_SESSION['username'])) {;?>
-        <a href="ptc_ads.php">View Ads</a>
-        <a href="dashboard.php">Dashboard</a>
-        <a href="logout.php">Logout</a>
+        <a href="../ptc_ads.php">View Ads</a>
+        <a href="../dashboard.php">Dashboard</a>
+        <a href="../logout.php">Logout</a>
         <?php }else { ;?>
-        <a href="login.php">Login</a>
-        <a href="register.php">Register</a>
+        <a href="../login.php">Login</a>
+        <a href="../register.php">Register</a>
         <?php } ;?>
-        <a href="faq.php">FAQ</a>
+        <a href="../faq.php">FAQ</a>
     </nav>
 </div>
 <hr>

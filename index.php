@@ -1,9 +1,9 @@
 <?php
-include_once ('db/config.php');
+include_once('db/config.php');
 ?>
 
 
-<?php include ('header.php');?>
+<?php include('header.php');?>
 
 
 <div class="home-header">
@@ -28,4 +28,4 @@ include_once ('db/config.php');
     <button><a href="register.php">JOIN NOW</a></button>
 </div>
 
-<?php include ('footer.php');?>
+<?php include('footer.php');?>

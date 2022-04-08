@@ -1,6 +1,6 @@
 <?php
 require "db/config.php";
-include "include/login.inc.php";
+include "includes/login.inc.php";
 
 $username = $password = '';
 

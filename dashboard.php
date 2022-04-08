@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-include_once ('db/config.php');
+include_once('db/config.php');
 $member_id = $_SESSION['username'];
 $sql_stat = "SELECT money,credits FROM members WHERE username = '$member_id'";
 $res = mysqli_query($connect,$sql_stat);
